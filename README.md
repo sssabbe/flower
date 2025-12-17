@@ -27,6 +27,7 @@
 ```bash
 git clone https://github.com/sssabbe/flower
 cd flower
+bash
 
 ### Шаг 2: Установка зависимостей
 ```bash
