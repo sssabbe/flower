@@ -27,12 +27,13 @@
 ```bash
 git clone https://github.com/sssabbe/flower
 cd flower
-```bash
 
 ### Шаг 2: Установка зависимостей
+```bash
 npm install
 
 ### Шаг 3: Настройка базы данных
+```bash
 1)Создайте базу данных в PostgreSQL:
 CREATE DATABASE trade_app_db;
 
@@ -47,11 +48,13 @@ DB_PORT=5432
 ##### Порт приложения #####
 NODE_LOCAL_PORT=8080
 
-### Шаг 4: Запуск 
+### Шаг 4: Запуск
+```bash
 # Сервер автоматически синхронизирует БД
 npm start
 
 ### Шаг 5: Запуск приложения
+```bash
 ##### Режим разработки #####
 npm run dev
 
@@ -61,6 +64,7 @@ npm start
 Приложение будет доступно по адресу: http://localhost:8080
 
 ## 3 Использование
+```bash
 npm start
 
 #### Структура проекта
@@ -79,6 +83,7 @@ flower-shop/
 └── package.json       # Зависимости## Пример работы с API
 
 ####Пример работы с API
+```bash
 ##### Получение всех товаров
 // JavaScript
 fetch('/api/products')
@@ -107,15 +112,15 @@ fetch('/api/products', {
 ## 4 Вклад
 ###Процесс внесения изменений
 1) Создайте ветку для вашей фичи:
-bash
+```bash
 git checkout -b feature/AmazingFeature
 
 2)Сделайте коммит изменений:
-bash
+```bash
 git commit -m 'Add some AmazingFeature'
 
 3)Запушьте в вашу ветку:
-bash
+```bash
 git push origin feature/AmazingFeature
 
 ## 5 Документация
@@ -153,4 +158,3 @@ git push origin feature/AmazingFeature
 •	Sequelize - ORM для Node.js
 •	PostgreSQL - Реляционная база данных
 •	pgAdmin - Администрирование PostgreSQL
-<img width="484" height="680" alt="image" src="https://github.com/user-attachments/assets/540619b0-2dd6-468a-85c1-389d9926e07d" />
