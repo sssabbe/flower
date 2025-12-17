@@ -24,8 +24,10 @@
 - npm или yarn
 
 #### Шаг 1: Клонирование репозитория
+```bash
 git clone https://github.com/sssabbe/flower
 cd flower
+```bash
 
 ### Шаг 2: Установка зависимостей
 npm install
