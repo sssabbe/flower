@@ -25,13 +25,11 @@
 - PostgreSQL (версия 12 или выше)
 - npm или yarn
 
-### Шаг 1: Клонирование репозитория
-```bash
+#### Шаг 1: Клонирование репозитория
 git clone https://github.com/sssabbe/flower
 cd flower
 
 ### Шаг 2: Установка зависимостей
-```bash
 npm install
 
 ### Шаг 3: Настройка базы данных
