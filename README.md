@@ -157,15 +157,15 @@ git push origin feature/AmazingFeature
 
 ## 7 Контактная информация
 
-###Разработчик
-####Имя: Абибулаева Сабина
-####Email: sabi.abibulaeva@mail.ru
-####GitHub: @sssabbe
-####Телефон: +7 979 001-76-10
+- Разработчик
+- Имя: Абибулаева Сабина
+- Email: sabi.abibulaeva@mail.ru
+- GitHub: @sssabbe
+- Телефон: +7 979 001-76-10
 
 ## 8 Благодарности
 
-####Express.js - Веб-фреймворк для Node.js
-####Sequelize - ORM для Node.js
-####PostgreSQL - Реляционная база данных
-####pgAdmin - Администрирование PostgreSQL
+- Express.js - Веб-фреймворк для Node.js
+- Sequelize - ORM для Node.js
+- PostgreSQL - Реляционная база данных
+- pgAdmin - Администрирование PostgreSQL
