@@ -23,7 +23,7 @@
 - PostgreSQL (версия 12 или выше)
 - npm или yarn
 
-#### Шаг 1: Клонирование репозитория
+### Шаг 1: Клонирование репозитория
 ```
 git clone https://github.com/sssabbe/flower
 cd flower
