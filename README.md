@@ -24,21 +24,24 @@
 - npm или yarn
 
 #### Шаг 1: Клонирование репозитория
-```bash
+```
 git clone https://github.com/sssabbe/flower
 cd flower
-bash
+```
 
 ### Шаг 2: Установка зависимостей
-```bash
+```
 npm install
+```
 
 ### Шаг 3: Настройка базы данных
-```bash
 1)Создайте базу данных в PostgreSQL:
+```
 CREATE DATABASE trade_app_db;
+```
 
 2) Настройте переменные окружения. Создайте файл .env в корне проекта:
+```
 ##### Подключение к PostgreSQL #####
 DB_HOST=localhost
 DB_USER=postgres
@@ -48,24 +51,27 @@ DB_PORT=5432
 
 ##### Порт приложения #####
 NODE_LOCAL_PORT=8080
+```
 
 ### Шаг 4: Запуск
-```bash
+```
 # Сервер автоматически синхронизирует БД
 npm start
+```
 
 ### Шаг 5: Запуск приложения
-```bash
+```
 ##### Режим разработки #####
 npm run dev
 
 ##### Продакшен режим #####
 npm start
+```
 
 Приложение будет доступно по адресу: http://localhost:8080
 
 ## 3 Использование
-```bash
+```
 npm start
 
 #### Структура проекта
@@ -82,9 +88,10 @@ flower-shop/
 ├── .env               # Переменные окружения
 ├── server.js          # Точка входа
 └── package.json       # Зависимости## Пример работы с API
+```
 
 ####Пример работы с API
-```bash
+```
 ##### Получение всех товаров
 // JavaScript
 fetch('/api/products')
@@ -109,20 +116,23 @@ fetch('/api/products', {
     price: 150.00
   })
 });
- 
+```
 ## 4 Вклад
 ###Процесс внесения изменений
 1) Создайте ветку для вашей фичи:
-```bash
+```
 git checkout -b feature/AmazingFeature
+```
 
 2)Сделайте коммит изменений:
-```bash
+```
 git commit -m 'Add some AmazingFeature'
+```
 
 3)Запушьте в вашу ветку:
-```bash
+```
 git push origin feature/AmazingFeature
+```
 
 ## 5 Документация
 
