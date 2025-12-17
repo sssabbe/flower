@@ -77,7 +77,7 @@ npm start
 #### Структура проекта
 flower-shop/
 ├── app/
-│   ├── controllers/     # Контроллеры (бизнес-логика)
+│   ├── controllers/     # Контроллеры
 │   ├── models/         # Модели Sequelize
 │   └── routes/         # Маршруты API
 ├── config/             # Конфигурация
